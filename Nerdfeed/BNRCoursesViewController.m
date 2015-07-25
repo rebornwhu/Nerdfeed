@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Xiao Lu. All rights reserved.
 //
 
-#import "BNRCourseViewController.h"
+#import "BNRCoursesViewController.h"
 
-@interface BNRCourseViewController ()
+@interface BNRCoursesViewController ()
 
 @end
 
-@implementation BNRCourseViewController
+@implementation BNRCoursesViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

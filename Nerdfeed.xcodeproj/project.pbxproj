@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		89DAA3501B64545E00326326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA34F1B64545E00326326 /* main.m */; };
 		89DAA3531B64545E00326326 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA3521B64545E00326326 /* BNRAppDelegate.m */; };
-		89DAA3561B64545E00326326 /* BNRCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA3551B64545E00326326 /* BNRCourseViewController.m */; };
+		89DAA3561B64545E00326326 /* BNRCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA3551B64545E00326326 /* BNRCoursesViewController.m */; };
 		89DAA3591B64545E00326326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DAA3571B64545E00326326 /* Main.storyboard */; };
 		89DAA35B1B64545E00326326 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DAA35A1B64545E00326326 /* Images.xcassets */; };
 		89DAA35E1B64545E00326326 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89DAA35C1B64545E00326326 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		89DAA34F1B64545E00326326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89DAA3511B64545E00326326 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
 		89DAA3521B64545E00326326 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
-		89DAA3541B64545E00326326 /* BNRCourseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRCourseViewController.h; sourceTree = "<group>"; };
-		89DAA3551B64545E00326326 /* BNRCourseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRCourseViewController.m; sourceTree = "<group>"; };
+		89DAA3541B64545E00326326 /* BNRCoursesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRCoursesViewController.h; sourceTree = "<group>"; };
+		89DAA3551B64545E00326326 /* BNRCoursesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRCoursesViewController.m; sourceTree = "<group>"; };
 		89DAA3581B64545E00326326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89DAA35A1B64545E00326326 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		89DAA35D1B64545E00326326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				89DAA3511B64545E00326326 /* BNRAppDelegate.h */,
 				89DAA3521B64545E00326326 /* BNRAppDelegate.m */,
-				89DAA3541B64545E00326326 /* BNRCourseViewController.h */,
-				89DAA3551B64545E00326326 /* BNRCourseViewController.m */,
+				89DAA3541B64545E00326326 /* BNRCoursesViewController.h */,
+				89DAA3551B64545E00326326 /* BNRCoursesViewController.m */,
 				89DAA3571B64545E00326326 /* Main.storyboard */,
 				89DAA35A1B64545E00326326 /* Images.xcassets */,
 				89DAA35C1B64545E00326326 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89DAA3561B64545E00326326 /* BNRCourseViewController.m in Sources */,
+				89DAA3561B64545E00326326 /* BNRCoursesViewController.m in Sources */,
 				89DAA3531B64545E00326326 /* BNRAppDelegate.m in Sources */,
 				89DAA3501B64545E00326326 /* main.m in Sources */,
 			);

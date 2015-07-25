@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BNRCourseViewController : UITableViewController
-
+@interface BNRCoursesViewController : UITableViewController
 
 @end
-
