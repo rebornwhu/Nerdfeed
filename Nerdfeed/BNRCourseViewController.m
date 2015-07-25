@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Xiao Lu. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "BNRCourseViewController.h"
 
-@interface ViewController ()
+@interface BNRCourseViewController ()
 
 @end
 
-@implementation ViewController
+@implementation BNRCourseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +22,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - UITableViewDelegate
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return nil;
 }
 
 @end
