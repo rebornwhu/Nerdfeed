@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89A0FB9A1B649FE1003C0AD3 /* BNRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A0FB991B649FE1003C0AD3 /* BNRWebViewController.m */; };
 		89DAA3501B64545E00326326 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA34F1B64545E00326326 /* main.m */; };
 		89DAA3531B64545E00326326 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA3521B64545E00326326 /* BNRAppDelegate.m */; };
 		89DAA3561B64545E00326326 /* BNRCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89DAA3551B64545E00326326 /* BNRCoursesViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89A0FB981B649FE1003C0AD3 /* BNRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWebViewController.h; sourceTree = "<group>"; };
+		89A0FB991B649FE1003C0AD3 /* BNRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRWebViewController.m; sourceTree = "<group>"; };
 		89DAA34A1B64545E00326326 /* Nerdfeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nerdfeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DAA34E1B64545E00326326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89DAA34F1B64545E00326326 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				89DAA3521B64545E00326326 /* BNRAppDelegate.m */,
 				89DAA3541B64545E00326326 /* BNRCoursesViewController.h */,
 				89DAA3551B64545E00326326 /* BNRCoursesViewController.m */,
+				89A0FB981B649FE1003C0AD3 /* BNRWebViewController.h */,
+				89A0FB991B649FE1003C0AD3 /* BNRWebViewController.m */,
 				89DAA3571B64545E00326326 /* Main.storyboard */,
 				89DAA35A1B64545E00326326 /* Images.xcassets */,
 				89DAA35C1B64545E00326326 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A0FB9A1B649FE1003C0AD3 /* BNRWebViewController.m in Sources */,
 				89DAA3561B64545E00326326 /* BNRCoursesViewController.m in Sources */,
 				89DAA3531B64545E00326326 /* BNRAppDelegate.m in Sources */,
 				89DAA3501B64545E00326326 /* main.m in Sources */,

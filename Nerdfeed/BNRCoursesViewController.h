@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class BNRWebViewController;
 
 @interface BNRCoursesViewController : UITableViewController
+
+@property (nonatomic) BNRWebViewController *webViewController;
 
 @end
